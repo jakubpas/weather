@@ -1,0 +1,1 @@
+* * * * *  root bash -c "/usr/bin/python /opt/weather/temperature.py > /var/log/temperature.log 2>/var/log/cron.log"

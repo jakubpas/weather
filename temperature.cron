@@ -1,1 +1,0 @@
-* * * * *  root /usr/bin/python /opt/weather/temperature.py > /var/log/temperature.log
