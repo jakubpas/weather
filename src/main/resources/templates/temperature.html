@@ -1,11 +1,22 @@
 <!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org" lang="">
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
 <head>
-    <title>Getting Started: Serving Web Content</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Users</title>
 </head>
 <body>
-<p th:text="'Current inside temperature is ' + ${indoor} + ' degrees Celsius'"></p>
-<p th:text="'Current outside temperature is ' + ${outdoor} + ' degrees Celsius'"></p>
+<div class="container">
+    <div class="alert alert-primary text-hide" role="alert">
+    </div>
+    <div class="alert alert-primary text-center" role="alert">
+	    Current room temperature <b><span th:text="${indoor}"></span>°C</b>
+    </div>
+    <div class="alert alert-secondary text-center" role="alert">
+	    Current outside temperature <b><span th:text="${outdoor}"></span>°C</b>
+    </div>
+</div>
 </body>
 </html>
