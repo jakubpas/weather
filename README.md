@@ -1,6 +1,7 @@
 How to run:
 
-```./gradlew bootRun
+```
+./gradlew bootRun
 ```
 
 
