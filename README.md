@@ -13,6 +13,8 @@
 
 ##system.d configuration (linux only)
 
+To run it as server on raspberry pi:
+
 ```
 echo "dtoverlay=w1-gpio" >> /boot/config.txt
 sudo cp src/main/resources/weather.service /etc/systemd/system/weather.service
